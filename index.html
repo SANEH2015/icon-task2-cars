@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    </head>
+    <style>
+        body{
+            background-color: azure;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            background-color: aqua;
+            height: 350px;
+            width: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .box1{
+            background-color: orangered;
+            height:350px;
+            width: 300px;
+            border-radius: 5px;
+            
+        }
+        .box2{
+            background-color:blue;
+            height: 350px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        .box3{
+            background-color: green;
+            height: 350px;
+            width: 300px;
+            border-radius: 5px;
+        }
+       .box1>h4, .box2>h4, .box3>h4{
+            color: azure;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-left: 40px;
+            font-size: 30px;
+    
+
+            
+        }
+        .box1>p, .box2>p, .box3>p{
+            color: azure;
+            padding-left: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+        .btn1, .btn2,.btn3{
+            background-color: azure;
+            border-radius: 20px;
+            top: 20px;
+            height: 30px;
+
+        }
+        .btn1{
+            color: orangered;
+        }
+        .btn1:hover{
+            background-color:orangered ;
+        }
+        .btn2{
+            color: blue;
+        }
+        .btn2:hover{
+            background-color: blue;
+        }
+          .btn3{
+            color: green;
+          }  
+          .btn3:hover{
+            background-color:green
+          }
+          .img1{
+            padding-left: 40px;
+            padding-top: 20px;
+          }
+        @media screen and (max-width:433px){
+            .main{
+                flex-direction: column;
+                height: 50%; 
+                
+        }
+    
+    
+        }
+           
+        
+    </style>
+    <body>
+
+    
+    <div class="main box">
+        <div class="box1">
+            <img class="img1" src="file:///C:/Users/Codetribe06/Desktop/icon-sedans.svg">
+            <h4>sedand</h4>
+            <p>choose a sedan for its <br>
+            affordability and excellent <br>
+            fuel economy.I deal for <br>
+            cruising in the city or<br>
+             on your next road trip.<br><br>
+
+             <button class="btn1">learn more</button>
+            </p>
+
+            
+        </div>
+        <div class="box2">
+            <img class="img1" src="file:///C:/Users/Codetribe06/Desktop/icon-suvs.svg">
+            <h4>suvs</h4>
+            <p>take an suv for its spacious<br>
+             interior,power,and<br>
+             versatility. perfect for your<br>
+             next family vacation and <br>
+             off-road adventures.<br><br>
+
+             <button class="btn2">learn more</button>
+
+            </p>
+        </div>
+        <div class="box3">
+            <img class="img1" src="file:///C:/Users/Codetribe06/Desktop/icon-luxury.svg">
+            <h4>luxury</h4>
+            <p>cruise in the best car brands<br>
+                without the bloated prices.<br>
+                enjoys the enhanced comfort<br>
+                of a luxury rental and arrive<br>
+                in style.<br><br>
+
+                <button class="btn3">learn more</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
